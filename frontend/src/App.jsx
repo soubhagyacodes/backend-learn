@@ -1,10 +1,12 @@
 import './App.css'
+import { useState } from 'react'
 
 function App() {
+  const [jokes, setJokes] = useState([])
 
   return (
     <>
-      <h1>HELLO</h1>
+      <h1>JOKES : {jokes.length}</h1>
     </>
   )
 }
